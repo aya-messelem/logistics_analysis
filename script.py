@@ -19,6 +19,6 @@ df_export = pd.DataFrame([(k, v) for k, v in ff_synced_orders_dict.items()], col
 
 df_export.to_csv("ff_synced_orders.csv", index=False)
 
-print(df_export.head())
+print(df_export)
 
 
